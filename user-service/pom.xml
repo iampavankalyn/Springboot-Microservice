@@ -94,9 +94,11 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>iampavankalyan/user-service</repository>
-					<tag>${project.version}</tag>
-					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
+					<skip>${skip-docker-plugin}</skip>
+					<repository>${docker-image-name}</repository>
+					<buildArgs>
+						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>
+					</buildArgs>
 				</configuration>
 				<dependencies>
 					<dependency>
