@@ -8,9 +8,9 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.dailycodebuffer</groupId>
+	<groupId>com.iampavankalyan</groupId>
 	<artifactId>user-service</artifactId>
-	<version>0.0.1</version>
+	<version>1.0</version>
 	<name>user-service</name>
 	<description>user-service</description>
 
@@ -102,7 +102,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<repository>dailycodebuffer/user-service</repository>
+					<repository>iampavankalyan/user-service</repository>
 					<tag>${project.version}</tag>
 					<useMavenSettingsForAuth>true</useMavenSettingsForAuth>
 				</configuration>
